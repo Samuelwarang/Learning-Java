@@ -1,0 +1,56 @@
+NOTES :
+
+    In java the name of the class starts with capiptal alphabet 
+    and name of the function begins with small alphabet
+
+    Properties and methods of the class are known as the 'data' and the 'members' of the class
+    Data    -> Data Stored like string , int and all
+    Members -> Functions of the class
+                
+    Creating an OBJECT from the clas 'Pen'
+    Syntax for creating and object is : 
+    type objectname = new Constructor(); ( where the type is the classname ; where Constructor is the class name)
+                
+    to call a PROPERTY or a METHOD from the class of the object following is the syntax
+    objectname.property = value;
+    objectname.method(); 
+
+        CONSTRUCTORS are the functions that make objects
+
+            Properties of a CONSTRUCTOR
+                1. Name of the constructor is same as the class name
+                2. Constructors do not return anything and they don't have any return type like int, String or Void...
+                3. For one object only one constructors ca be called once
+
+            Types of CONSTRUCTOR
+                1. Non parameterized Constructors : Constructors which doesn't contain any parameters
+
+                        Student(){
+                            System.out.println("");
+                        }
+
+                2. Parameterized Constructors 
+
+                        Student(String name, int age){
+                            this.name = name;
+                            this.age = age;
+                        }
+
+                3. Copy Constructor : Copy an object and paste in other 
+                        
+                        Student(Student s2){
+                            this.name = s2.name;
+                            this.age = s2.age;
+                        }
+            
+            CONSTRUCTOR CHAINING
+            - If you create a constructor then first the base class constructor is called and then the derived class constructor is called.
+    
+    Types of error 
+    1. Runtime error
+        - Error which occurs after running a code 
+    
+    2. Compile time error 
+        - Error which occurs while compiling the code 
+
+    

@@ -1,0 +1,34 @@
+INHERITENCE : Inheriting properties of other classes 
+keyword used : extends 
+
+In Inheritence there is a Base class (parent class) and Derived class (child class)
+
+Types of INHERITENCE 
+
+1. Single level Inheritence : Inheritence till a single class 
+    
+    Base Class --> Derived Class
+
+2. Multi level Inheritence : Inheritence continues from the derived class too
+
+    Base Class --> Derived class --> Derived class
+
+3. Hierarchial inheritance
+
+                   ---Derived Class
+                  /
+    Base Class ---
+                  \ 
+                   ---Derived Class
+
+4. Hybrid Inheritence
+
+                   ---Derived Class --> Derived class
+                  /
+    Base Class ---
+                  \ 
+                   ---Derived Class
+
+
+5. Multiple Inheritence [ it is available in C++ , in Java we use Interfaces to implement the same ]
+

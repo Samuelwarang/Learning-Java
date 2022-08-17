@@ -1,0 +1,52 @@
+
+ENCAPSULATION : When data and functions are combined in a single entity.
+                Creating a class & objects can also be known as encapsulation.
+
+PACKAGES & ACCESS MODIFIERS
+ 
+    PACKAGE :
+
+        Package is wrapping similar things together.
+        
+        Types of packages in Java 
+
+        1. Buildin Packages 
+            Eg. java.util which contains Scanner class
+        
+        2. User Packages
+            - Packages which are defined by the user
+
+    ACCESS MODIFIERS :
+
+        Types of access modifiers 
+
+        1.Public type : 
+            - Information in the class can be accessed by anyone 
+            - It can also be accessed in other package too
+            - Main function needs to be Public so that it is always accessible
+
+        2. Default type :
+            - Exists by default 
+            - within the package the class can be accessed if the access modifier is set to default 
+
+        3. Protected type :
+            - Within the package can be accessed
+            - In other packages only sub-classes can access it
+
+        4. Private type :
+            - It can only be accessed within the class only 
+            
+        ** To accesss private we Use
+            Getters and Setters functions
+
+            Getters is used to give the information of the private things
+            Setters are used to set the information for the private things
+
+            - You can set the setter as private to hide the information from the user too.
+
+
+    DATA HIDING : 
+        - It is the process of protecting members of calss from unintended changes.
+        [ Abstraction is hiding the implementation details and showing only important/useful parts to the user.]
+
+        - Using access modifiers we can hide the data however needed 
