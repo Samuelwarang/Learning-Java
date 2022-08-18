@@ -32,3 +32,8 @@ Types of INHERITENCE
 
 5. Multiple Inheritence [ it is available in C++ , in Java we use Interfaces to implement the same ]
 
+   Base Class ---
+                 \
+                  --- Derived Class
+                 /
+   Base Class ---
