@@ -1,0 +1,8 @@
+POLYMORPHISM : When one work is done in multiple ways
+poly -> many ; morphism -> forms
+
+Types of polymorphism
+
+1.Functional Overloading  : It is compile-time polymorphism
+2.Functional Overwriting :  It is run-time polymorphism ( is used in INHERITENCE 
+FUNCTION OVERLOADING 

@@ -1,0 +1,25 @@
+ABSTRACTION :
+
+    Abstraction is hiding the implementation details and showing only important/useful parts to the user.
+
+    In Java, there are two ways to implement absctration 
+
+        1. Using absctract keyword creating absctract classes, functions or properties etc.
+        2. Using Interfaces
+
+    **When you call and abstract function or a class then it gives a runtime error 
+
+    Properties of Absctract class :
+        1. An absctract class must be declared with an absctract keyword.
+        2. It can have abstract and non-absctract methods.
+        3. It cannot be instantiated.
+        4. It can have constructors and static methods also.
+        5. It can have final methods which will force the subclass not to change the body of the method.
+
+    Syntax for absctract
+
+        absctract class Animal {
+            absctract void walk();
+        }
+
+    
